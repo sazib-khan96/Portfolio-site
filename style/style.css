@@ -297,9 +297,55 @@ background: #e754dd73;
         width: 52%;
     }
 }
+/* -------------Portfolio_section -------------- */
+
+.Portfolio_section{
+    max-width: 1200px;
+    padding: 50px 15px;
+    margin: 0 auto;
+}
+.Portfolio_section .Portfolio_titel{
+    padding: 20px 0px;
+    text-align: center;
+}
+.Portfolio_titel h2{
+    font-size: 32px;
+}
+
+.Portfolio_section .Portfolio_items{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 20px;
+}
+.Portfolio_section .Portfolio_items .item{
+    background: #dedede80;
+    padding: 15px;
+    border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+.Portfolio_items .item img{
+    width: 390px;
+    border-radius: 8px;
+}
+.Portfolio_items .item  .btn{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin: 20px 0px;
+    align-items: center;
+}
+ .item  .btn button{
+   
+    background: none;
+    font-size: 18px;
+    text-transform: uppercase;
+    border: none;
+    border-bottom: 1px solid rgb(36, 36, 36);
+ }
 
 
-/* services_container  */
+/* ----------------services_container--------------  */
 
 .services_container {
     max-width: 1200px;
@@ -348,7 +394,7 @@ background: #e754dd73;
 
 }
 
-/* prices section aria  */
+/*------------- prices section aria ------------ */
 .prices_section {
     max-width: 1200px;
     padding: 50px 15px;
@@ -437,7 +483,7 @@ background: #e754dd73;
 }
 
 
-/* Frequently ask questions aria  */
+/*------------ Frequently ask questions aria ------------- */
 .faq-container .faq_titel h2 {
     font-size: 32px;
     text-align: center;
@@ -491,7 +537,7 @@ background: #e754dd73;
 
 
 
-/* conntact_aria  */
+/* ----------------conntact_aria ----------------- */
 #conntact_aria {
     background-color: #e754dd44;
 }

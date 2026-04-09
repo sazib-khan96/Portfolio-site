@@ -104,4 +104,13 @@
     .footer_container{
     flex-wrap: wrap; 
 }
+
+/* portfolio section  */
+.Portfolio_section .Portfolio_items{
+    grid-template-columns: auto;
+    
+}
+.Portfolio_items .item img{
+    width: 100%;
+}
 }
