@@ -593,3 +593,76 @@ input[type='email'] {
     width: 100%;
     outline: none;
 }
+
+
+/* footer aria style */
+
+.footer_main_aria{
+    background: #3d3d3d63;
+    padding: 15px;
+}
+.footer_container{
+    max-width: 1200px;
+    padding: 50px 15px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+   
+}
+/* logo container  */
+.footer_container .logo_content{
+    width: 33%;
+}
+.footer_container .logo_content h3{
+margin-bottom: 20px;
+}
+/* Quick links container  */
+.footer_container  .manu_content{
+    width: 33%;
+
+}
+.footer_container  .manu_content h3{
+    margin-bottom: 20px;
+}
+.footer_container  .manu_content li{
+    list-style: none;
+}
+ .manu_content li a{
+    text-decoration: none;
+ }
+/* contact_info  */
+
+
+
+.footer_container .contact_info{
+    width: 33%;
+}
+.footer_container .contact_info h3{
+    margin-bottom: 20px;
+}
+.footer_container .contact_info .contact_list li{
+    list-style: none;
+   
+}
+
+/* form section  */
+.contact_info form{
+    margin: 20px 0px;
+}
+.contact_info form input[type="button"]{
+    background-image: var(--myBtnColor);
+    border: none;
+    padding: 12px 24px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: white;
+    border-radius: 8px;
+}
+/* copy_right_text  */
+.copy_right_aria{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+}

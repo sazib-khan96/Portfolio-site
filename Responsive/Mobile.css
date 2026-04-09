@@ -98,4 +98,10 @@
         width: 450px;
         margin: 0 auto;
     }
+
+
+    /* footer aria style  */
+    .footer_container{
+    flex-wrap: wrap; 
+}
 }
