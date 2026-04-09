@@ -1,0 +1,101 @@
+@media (max-width: 768px) {
+    #Hero_section .hero_aria {
+        height: 100vh;
+        align-items: center;
+
+        flex-wrap: wrap;
+        overflow: hidden;
+
+    }
+
+    .left_container h5 {
+        font-size: 16px;
+        letter-spacing: 5px;
+        text-align: center;
+    }
+
+    .left_container h1 {
+        font-size: 42px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .left_container p {
+        text-align: center;
+        line-height: 24px;
+
+    }
+
+    .btn_box {
+        text-align: center;
+    }
+
+    .left_container .Social_icon_box {
+        text-align: center;
+    }
+
+    .Right_coitainer .card1,
+    .card2 {
+        display: none;
+    }
+
+    .hero_aria .Right_coitainer img {
+        height: 400px;
+
+    }
+
+    .hero_aria .Right_coitainer {
+        text-align: center;
+        padding: 0px;
+    }
+
+    /* services_container  */
+    .services_container .service_heading {
+        padding: 10px;
+
+    }
+
+    .services_container .service_items {
+        grid-template-columns: auto;
+
+    }
+
+    /* contact form aria  */
+
+    .contact_content_box {
+
+        flex-wrap: wrap;
+    }
+
+    .contact_content_box .content_side {
+        width: 100%;
+    }
+
+    .contact_content_box .form_side {
+        width: 100%;
+    }
+
+    .content_side .contact_info {
+        height: 270px;
+    }
+
+    .contact_info .box1 {
+        position: absolute;
+        bottom: 20px;
+        left: 30px;
+        transform: rotate(25deg);
+        transition: 0.6s;
+        cursor: pointer;
+    }
+
+    /* prices section aria   */
+    .prices_section .main_card {
+        /* display: flex;
+    flex-direction: column;
+    flex-wrap: wrap; */
+        grid-template-columns: auto;
+        gap: 20px;
+        width: 450px;
+        margin: 0 auto;
+    }
+}
