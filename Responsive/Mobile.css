@@ -1,116 +1,147 @@
-@media (max-width: 768px) {
-    #Hero_section .hero_aria {
-        height: 100vh;
-        align-items: center;
-
-        flex-wrap: wrap;
-        overflow: hidden;
-
-    }
-
-    .left_container h5 {
-        font-size: 16px;
-        letter-spacing: 5px;
-        text-align: center;
-    }
-
-    .left_container h1 {
-        font-size: 42px;
-        text-align: center;
-        margin-bottom: 20px;
-    }
-
-    .left_container p {
-        text-align: center;
-        line-height: 24px;
-
-    }
-
-    .btn_box {
-        text-align: center;
-    }
-
-    .left_container .Social_icon_box {
-        text-align: center;
-    }
-
-    .Right_coitainer .card1,
-    .card2 {
-        display: none;
-    }
-
-    .hero_aria .Right_coitainer img {
-        height: 400px;
-
-    }
-
-    .hero_aria .Right_coitainer {
-        text-align: center;
-        padding: 0px;
-    }
-
-    /* services_container  */
-    .services_container .service_heading {
-        padding: 10px;
-
-    }
-
-    .services_container .service_items {
-        grid-template-columns: auto;
-
-    }
-
-    /* contact form aria  */
-
-    .contact_content_box {
-
-        flex-wrap: wrap;
-    }
-
-    .contact_content_box .content_side {
-        width: 100%;
-    }
-
-    .contact_content_box .form_side {
-        width: 100%;
-    }
-
-    .content_side .contact_info {
-        height: 270px;
-    }
-
-    .contact_info .box1 {
-        position: absolute;
-        bottom: 20px;
-        left: 30px;
-        transform: rotate(25deg);
-        transition: 0.6s;
-        cursor: pointer;
-    }
-
-    /* prices section aria   */
-    .prices_section .main_card {
-        /* display: flex;
-    flex-direction: column;
-    flex-wrap: wrap; */
-        grid-template-columns: auto;
-        gap: 20px;
-        width: 450px;
-        margin: 0 auto;
-    }
-
-
-    /* footer aria style  */
-    .footer_container{
-    flex-wrap: wrap; 
-}
-
-/* portfolio section  */
-.Portfolio_section .Portfolio_items{
-    grid-template-columns: auto;
+@media (max-width : 576px) {
     
+    #Hero_section .hero_aria {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    align-content: center;
 }
-.Portfolio_items .item img{
+.left_container {
     width: 100%;
 }
+.left_container h5 {
+    font-size: 16px;
 }
+.left_container h1 {
+    font-size: 52px;
+}
+/* .hero_aria .Right_coitainer */
+.hero_aria .Right_coitainer{
+    padding: 20px;
+}
+.Right_coitainer .img_box{
+   display: flex;
+   justify-content: center;
+}
+.Right_coitainer .img_box img{
+    width:80%;
+    height: 100%;
+}
+/* social icon container  */
+.Right_coitainer .card1, .card2{
+    display: none;
+}
+/* about_section container  */
+.img_content_section .images{
+    display: none;
+}
+.about_section .content_side h3{
+    font-size: 28px;
+}
+/* skill_section */
+.content_side .skill_section h1{
+    font-size: 20px;
+}
+.content_side .skill_section h4{
+    font-size: 16px;
+}
+.content_side .skill_section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-items: center;
+    
+}
+.content_side .skill_section .skill{
+    padding: 20px;
+    width: 200px;
+    background-color: #8f8fe7;
+   margin: 10px 0;
+   text-align: center;
+   border-radius: 8px;
+}
+/* Portfolio  */
+.Portfolio_section .Portfolio_items {
+    grid-template-columns: auto ;
+}
+.Portfolio_items .item img {
+    width: 100%;
+    margin-bottom: 15px;
+}
+.item .btn button{
+    font-size: 16px;
+}
+/* services_container  */
+.services_container .service_heading h2{
+    font-size: 28px;
+    line-height: 40px;
+}
+.services_container .service_items {
+    grid-template-columns: auto;
+ 
+}
+/* prices section aria  */
+.prices_section .main_card {
+    grid-template-columns: auto;  
+}
+.prices_section .pric_titel{
+    font-size: 28px;
+}
+.prices_section .main_card .card {
+    width: 70%;
+    margin: 15px auto;
+}
+
+/* Frequently Asked Questions  */
+
+.faq-container .faq_titel h2{
+    font-size: 28px;
+}
+/* conntact_aria   */
+
+.contact_content_box {
+    display: flex;
+flex-wrap: wrap;
+}
+.contact_content_box .content_side {
+    width: 100%;
+}
+.contact_content_box .content_side h2 {
+    font-size: 28px;
+}
+.contact_content_box .form_side {
+    width: 100%;
+}
+.contact_content_box .form_side{
+    margin-top: 250px;
+}
+.contact_info .box1 {
+    position: absolute;
+    bottom: -200px;
+    left: 30px;
+    transform: rotate(25deg);
+    transition: 0.6s;
+    cursor: pointer;
+}
+/* footer aria style */
+
+.footer_container{
+display: flex;
+flex-wrap: wrap;
+}
+.footer_container .logo_content {
+    width: 60%;
+}
+.footer_container .manu_content {
+    width: 30%;
+}
+.footer_container .contact_info {
+    width: 100%;
+}
+.contact_info form input[type="email"] {
+    width: 80%;
+
+}
+
+}
+   
