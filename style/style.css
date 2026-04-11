@@ -28,6 +28,7 @@ body {
     max-width: 1200px;
     padding: 30px 15px;
     margin: 0 auto;
+    backdrop-filter: blur(2px);
 }
 
 .main_menu nav {
@@ -93,8 +94,12 @@ body {
 }
 
 #Hero_section .hero_aria {
+    background-image: url("/images/sazib_khan.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
     max-width: 1200px;
-    height: 100vh;
+    height: 90vh;
     padding-top: 50px;
     padding-right: 15px;
     padding-left: 15px;
@@ -105,7 +110,7 @@ body {
 }
 
 .left_container {
-    width: 680px;
+    width: 50%;
 }
 
 .left_container h5 {
@@ -178,32 +183,25 @@ body {
     width: 500px;
 }
 
-.hero_aria .Right_coitainer .img_box {
-    width: 500px;
-    height: 500px;
-    border-radius: 10px;
-    text-align: center;
-    background-color: var(--myBtnColor);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    overflow: hidden;
-    /* clip-path: polygon(100% 0, 0% 100%, 100% 100%); */
-    z-index: -1;
-}
+/* .hero_aria .Right_coitainer .img_box {
+   background-color: var(--myBtnColor);
+} */
 
 /*--------------- hero card design 01 ------------ */
 .Right_coitainer .card1 {
     width: 200px;
     height: 100px;
-    background-color: #7a7ef5;
+    background-color: rgba(175, 178, 255, 0.5);
     padding: 15px;
+       border-left: 1px solid whitesmoke;
+    border-top: 1px solid whitesmoke;
+    backdrop-filter: blur(2px);
     text-align: center;
     color: aliceblue;
     border-radius: 8px;
     position: absolute;
-    top: -120px;
-    right: 0px;
+    top: 200px;
+    right: -100px;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
     transform: rotate(15deg);
     transition: 0.6s;
@@ -217,14 +215,17 @@ body {
 .Right_coitainer .card2 {
     width: 200px;
     height: 100px;
-    background-color: #7a7ef5;
-    padding: 15px;
+    background-color: rgba(175, 178, 255, 0.5);
+    border-left: 1px solid whitesmoke;
+    border-top: 1px solid whitesmoke;
+    backdrop-filter: blur(2px);
+    padding: 20px;
     text-align: center;
-    color: aliceblue;
+    color: whitesmoke;
     border-radius: 8px;
     position: absolute;
-    bottom: 10px;
-    left: -200px;
+    top: 0px;
+    left: -100px;
     box-shadow: rgba(0, 0, 0, 0.1);
     transform: rotate(-15deg);
     transition: 0.6s;
@@ -395,7 +396,7 @@ body {
 
 /*------------- prices section aria ------------ */
 .prices_section {
-    max-width: 900px;
+    max-width: 1000px;
     padding: 50px 15px;
     margin: 0 auto;
     color: var(--textColor);
